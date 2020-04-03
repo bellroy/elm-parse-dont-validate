@@ -18,7 +18,7 @@ Type parameter|Meaning|Example
 :------------:|-----------|-------
 `inp`|Input type<br/>  (what is parsed/validated)| User input typically its a `String`
 `err`|Error type| Could be your custom error type<br/>  `type Error = Empty | Blank`
-`out`|Output type| Could be your domain type<br/> `type Email = Email String`
+`out`|Output type| Could be your domain type<br/>  `type Email = Email String`
 
 
 Graphically:
@@ -29,5 +29,10 @@ Graphically:
       Err (Cons err)
 ```
 
+(`Cons` is a non-empty list from [this library](https://package.elm-lang.org/packages/hrldcpr/elm-cons/3.1.0/))
+
 ## Usage
-Check the [VoucherTest.elm](tests/VoucherTest.elm) example.
+
+Take a look at this examples: 
+* [Voucher.elm](tests/Voucher.elm) module.
+* [VoucherTest.elm](tests/VoucherTest.elm) test spec.

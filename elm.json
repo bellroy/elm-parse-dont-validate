@@ -1,6 +1,6 @@
 {
   "type": "package",
-  "name": "tricycle/parse-dont-validate",
+  "name": "tricycle/elm-parse-dont-validate",
   "summary": "Parsing (Validation) done right",
   "license": "MIT",
   "version": "1.0.0",
